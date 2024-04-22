@@ -20,13 +20,13 @@ Para utilizar este proyecto, sigue estos pasos:
 
 ```bash
 pip install matplotlib numpy scipy
-
+```
 ## Uso
 Para ejecutar el script principal, sigue estos pasos:
 
 ```bash
 python3 main.py
-
+```
 Abre una terminal.
 Navega al directorio donde clonaste este repositorio.
 Ejecuta el script principal con el siguiente comando:
