@@ -30,9 +30,11 @@ python3 main.py
 Abre una terminal.
 Navega al directorio donde clonaste este repositorio.
 Ejecuta el script principal con el siguiente comando:
-
-##Contribución
+```bash
+python3 main.py
+```
+## Contribución
 Las contribuciones son bienvenidas. Si tienes alguna idea para mejorar este proyecto, no dudes en abrir un issue o enviar un pull request.
 
-##Licencia
+## Licencia
 Este proyecto está bajo la Licencia MIT. Para más detalles, consulta el archivo LICENSE.
