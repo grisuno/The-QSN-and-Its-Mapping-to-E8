@@ -20,3 +20,19 @@ Para utilizar este proyecto, sigue estos pasos:
 
 ```bash
 pip install matplotlib numpy scipy
+
+## Uso
+Para ejecutar el script principal, sigue estos pasos:
+
+```bash
+python3 main.py
+
+Abre una terminal.
+Navega al directorio donde clonaste este repositorio.
+Ejecuta el script principal con el siguiente comando:
+
+##Contribución
+Las contribuciones son bienvenidas. Si tienes alguna idea para mejorar este proyecto, no dudes en abrir un issue o enviar un pull request.
+
+##Licencia
+Este proyecto está bajo la Licencia MIT. Para más detalles, consulta el archivo LICENSE.
