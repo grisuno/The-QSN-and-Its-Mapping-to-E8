@@ -68,7 +68,17 @@ Ejecuta el script principal con el siguiente comando:
 python3 main.py
 ```
 
-## Uso codigo C
+## Uso código C
+
+Este código permite navegar por la red QSN con las flechas del teclado.
+
+### Instalación de las bibliotecas necesarias
+
+Para compilar y ejecutar el código, asegúrate de tener instaladas las bibliotecas necesarias. Puedes instalarlas utilizando el siguiente comando en tu terminal:
+
+```bash
+sudo apt-get install libglfw3-dev mesa-utils freeglut3-dev
+```
 
 este codigo permite navegar por la red QSN con las flecahs del teclado.
 ```bash
