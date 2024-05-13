@@ -14,7 +14,6 @@ Comenzamos con un cristal de ocho dimensiones llamado retícula E8. La retícula
 
 La primera operación que realizamos es tomar la retícula E8 y proyectar una porción de ella a 4D, a través de uno de dos procesos: corte y proyección, o mapeo de Hopf. Cualquiera de estos procesos nos da el mismo resultado: un cuasicristal de cuatro dimensiones llamado cuasicristal de Elser-Sloane. Cuando la celda básica de E8, el politopo de Gosset, se proyecta a 4D, crea dos formas idénticas de 4D de diferentes tamaños. La proporción de sus tamaños es la proporción áurea. Cada una de estas formas está construida por 600 tetraedros tridimensionales rotados entre sí por un ángulo basado en la proporción áurea. Nos referimos a esta forma de 4D como la "Célula 600". Las Células 600 interactúan de maneras específicas (se intersectan en 7 maneras relacionadas con la proporción áurea y se "besan" de una manera particular) para formar el cuasicristal de 4D.
 ![2-600-cells-smaller-1024x554](https://github.com/grisuno/The-QSN-and-Its-Mapping-to-E8/assets/1097185/da51454a-cb75-4843-99ad-b3a276488b09)
-![2-600-cells-smaller-1024x554](https://github.com/grisuno/The-QSN-and-Its-Mapping-to-E8/assets/1097185/ab196220-62d3-4c61-b943-cdce05797f3e)
 
 A continuación, tomamos cinco subespacios tridimensionales de este cuasicristal de 4D (un subespacio siendo todos los tetraedros orientados en la misma dirección) y los rotamos entre sí por 15.522 grados, obtenemos un cuasicristal tridimensional que puede ser visto como una representación del cuasicristal de 4D, Elser-Sloane. Llamamos a esto el "Cuasicristal Compuesto" (CQC). Aquí hay una representación de cinco subespacios: la imagen en la izquierda es un subespacio, la segunda tiene un segundo subespacio superpuesto y así sucesivamente. La quinta imagen es el CQC.
 
@@ -68,6 +67,15 @@ Ejecuta el script principal con el siguiente comando:
 ```bash
 python3 main.py
 ```
+
+## Uso codigo C
+
+este codigo permite navegar por la red QSN con las flecahs del teclado.
+```bash
+gcc -o tetrahedron main.c -lglfw -lGL -lGLU -lglut -lm
+./tetrahedron
+```
+
 ## Contribución
 Las contribuciones son bienvenidas. Si tienes alguna idea para mejorar este proyecto, no dudes en abrir un issue o enviar un pull request.
 la investigacion hecha con el paper en
