@@ -6,6 +6,8 @@ The QSN and Its Mapping to E8
 ## Descripción
 Este proyecto visualiza la red de hilos cuasicristalinos (QSN) y su relación con la red cristalina E8 en un entorno tridimensional. Se generan y visualizan tetraedros en una cuadrícula quasicristalina utilizando Python y la biblioteca Matplotlib.
 
+[https://medium.com/@lazyown.redteam/conciencia-cu%C3%A1ntica-y-la-geometr%C3%ADa-del-campo-unificado-una-s%C3%ADntesis-entre-neurofisiolog%C3%ADa-98bc464d5f85](https://medium.com/@lazyown.redteam/conciencia-cu%C3%A1ntica-y-la-geometr%C3%ADa-del-campo-unificado-una-s%C3%ADntesis-entre-neurofisiolog%C3%ADa-98bc464d5f85)
+
 ![20G-LR-L-R-300x295](https://github.com/grisuno/The-QSN-and-Its-Mapping-to-E8/assets/1097185/4114e072-f8f4-471e-9df1-f1048ab87cbf)
 
 La Red de Espín Cuasicristalina (QSN, por sus siglas en inglés) y su Mapeo a E8 es un espacio de puntos cuasicristalino en 3D en el cual modelamos la física. La QSN está profundamente relacionada con el cristal E8. A continuación, se presenta una breve explicación de la relación entre los diversos objetos relacionados.
