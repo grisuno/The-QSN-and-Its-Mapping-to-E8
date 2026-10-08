@@ -1,110 +1,26 @@
 {
   "tool": "readmenator",
-  "schema_version": 2,
-  "generated_at": "2026-10-08T01:49:20Z",
-  "project_root": ".",
-  "project_name": "readmenator_The-QSN-and-Its-Mapping-to-E8_0rcfvw8n",
-  "git_commit": "1db8551749d748656f623dddc5dbea94e3abcbf9",
-  "git_branch": "main",
-  "source_fingerprint": "b0e1e8c294595bcd1e099357d6d2e23285de626a5fce26a2ab0157715cf44091",
-  "freshness_check": "readmenator . fresh  # exit 0 = docs match sources, exit 1 = run: readmenator . --rebuild",
+  "generated_at": "2026-09-18T06:50:53Z",
+  "project_root": "/tmp/push_The-QSN-and-Its-Mapping-to-E8_20260918_033829",
   "files": 6,
   "symbols": 33,
-  "imports": 30,
-  "calls": 115,
-  "inherits": 0,
+  "imports": 145,
   "resolved_imports": 0,
   "security_findings": 0,
   "languages": {
-    "c": 1,
-    "py": 5
-  },
-  "subsystems": {
-    "root": 6
+    "py": 5,
+    "c": 1
   },
   "entrypoints": [
     "main.c",
     "main.py"
   ],
   "start_here": "INDEX.md",
-  "read_order": [
-    "readmenator-wiki/index.md  # big picture, communities, god nodes",
-    "readmenator-agent/INDEX.md  # file -> purpose -> used-by count",
-    "readmenator-agent/GOTCHAS.md  # blast radius before editing",
-    "readmenator-agent/KB_<subsystem>.md  # only the subsystem you touch"
-  ],
   "workflow": [
     "ls *.md readmenator-*/  # orient: docs first, ignore build noise",
-    "grep -n '<keyword>' INDEX*.md SYMBOLS*.md",
+    "grep -n '<keyword>' INDEX.md",
     "cat KB_<subsystem>.md",
-    "grep -n '<file>' ARCHITECTURE*.md API*.md"
-  ],
-  "documents": [
-    {
-      "path": "API.md",
-      "lines": 43,
-      "approx_tokens": 973
-    },
-    {
-      "path": "ARCHITECTURE.md",
-      "lines": 14,
-      "approx_tokens": 159
-    },
-    {
-      "path": "CONCEPTS.md",
-      "lines": 43,
-      "approx_tokens": 1011
-    },
-    {
-      "path": "GOTCHAS.md",
-      "lines": 26,
-      "approx_tokens": 257
-    },
-    {
-      "path": "INDEX.md",
-      "lines": 10,
-      "approx_tokens": 172
-    },
-    {
-      "path": "KB_root.md",
-      "lines": 69,
-      "approx_tokens": 882
-    },
-    {
-      "path": "SECURITY.md",
-      "lines": 3,
-      "approx_tokens": 10
-    },
-    {
-      "path": "SYMBOLS.md",
-      "lines": 37,
-      "approx_tokens": 800
-    },
-    {
-      "path": "recipes/add-function.md",
-      "lines": 9,
-      "approx_tokens": 99
-    },
-    {
-      "path": "recipes/change-impact.md",
-      "lines": 7,
-      "approx_tokens": 94
-    },
-    {
-      "path": "recipes/fix-cycle.md",
-      "lines": 6,
-      "approx_tokens": 65
-    },
-    {
-      "path": "recipes/fix-security.md",
-      "lines": 6,
-      "approx_tokens": 69
-    },
-    {
-      "path": "recipes/reduce-complexity.md",
-      "lines": 9,
-      "approx_tokens": 71
-    }
+    "grep -n '<file>' ARCHITECTURE.md SYMBOLS.md"
   ],
   "regenerate": "readmenator . --rebuild"
 }

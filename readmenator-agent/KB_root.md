@@ -1,7 +1,6 @@
 # Subsystem: root
 
 ## life.py
-- Doc: generate_e8_vertices: Genera un subconjunto de vértices del E8 en 8D.
 - Layer: utility
 - Language: py
 - Symbols:
@@ -14,8 +13,8 @@
   - `create_correlation_circuit` (function, line 68) `def create_correlation_circuit(num_qubits, interactions)`
 
 ## main.c
-- Doc: Variables para la posición de la cámara
 - Layer: utility
+- Doc: Variables para la posición de la cámara
 - Language: c
 - Symbols:
   - `Point3D` (struct, line 12)
@@ -38,7 +37,6 @@
   - `plot_tetrahedron` (function, line 29) `def plot_tetrahedron(ax, vertices, color)`
 
 ## someideas.py
-- Doc: generate_e8_vertices: Genera un subconjunto de vértices del E8 (Gosset polytope) en 8D.
 - Layer: utility
 - Language: py
 - Symbols:
@@ -49,7 +47,6 @@
   - `plot_tetrahedra` (function, line 52) `def plot_tetrahedra(ax, points, simplices, color)`
 
 ## someideas2.py
-- Doc: generate_e8_vertices: Genera un subconjunto de vértices del E8 en 8D.
 - Layer: utility
 - Language: py
 - Symbols:
@@ -60,7 +57,6 @@
   - `create_ising_circuit` (function, line 54) `def create_ising_circuit(num_qubits, interactions)`
 
 ## transmision_qbits.py
-- Doc: simulate_qubit_transmission: Simula la transmisión de un qubit usando dos bits de comunicación...
 - Layer: utility
 - Language: py
 - Symbols:

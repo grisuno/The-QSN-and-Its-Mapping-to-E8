@@ -11,7 +11,7 @@
 
 **Total Files Parsed:** 6 | **Total Symbols Extracted:** 33 | **Total Imports:** 30
 
-<!-- ranking_model: v1.0 | weights: {ppr:0.45,auth:0.2,test:0.15,doc:0.1,fresh:0.1} | alpha:0.85 | commit:1e0fd0b | date:2026-07-18 -->
+<!-- ranking_model: v1.0 | weights: {ppr:0.45,auth:0.2,test:0.15,doc:0.1,fresh:0.1} | alpha:0.85 | commit:05a4468 | date:2026-07-18 -->
 
 
 ## Table of Contents
@@ -25,13 +25,12 @@
 7. [Change Impact Analysis](#change-impact-analysis)
 8. [Suggested Linting Rules](#suggested-linting-rules)
 9. [Dataflow Analysis](#dataflow-analysis)
-10. [Concept Graph](#concept-graph)
-11. [Orphans](#orphans)
-12. [Query Recipes](#query-recipes)
-13. [Structural Knowledge Map](#structural-knowledge-map)
-14. [UML Class Diagram](#uml-class-diagram)
-15. [Code Property Graph](#code-property-graph)
-16. [Architecture Reference](#architecture-reference)
+10. [Orphans](#orphans)
+11. [Query Recipes](#query-recipes)
+12. [Structural Knowledge Map](#structural-knowledge-map)
+13. [UML Class Diagram](#uml-class-diagram)
+14. [Code Property Graph](#code-property-graph)
+15. [Architecture Reference](#architecture-reference)
     - [C (1 files)](#c-1-files)
     - [PY (5 files)](#py-5-files)
 
@@ -149,56 +148,6 @@ Procedural intra-function dataflow findings (zero tokens, regex-based heuristics
 |------|----------|------|------|----------|-------------|
 | `main.c` | `generate_quasicrystal_tetrahedron` | 55 | `DEAD_STORE` | `y` | `y` assigned at line 55 but never read afterwards. |
 | `main.c` | `generate_quasicrystal_tetrahedron` | 56 | `DEAD_STORE` | `z` | `z` assigned at line 56 but never read afterwards. |
-
----
-
-## Concept Graph
-
-Semantic second-brain layer: nouns are concept nodes, verbs are edges. Each noun maps atomically to a file set (EXTRACTED); each verb aggregates structural imports, calls, and inherits into consumes, invokes, extends, depends_on, or bridges (INFERRED).
-
-**26 concepts, 0 relations.**
-
-| Concept | Files | Mentions |
-|---------|-------|----------|
-| `generate` | 6 | 12 |
-| `plot` | 5 | 6 |
-| `para` | 5 | 5 |
-| `usando` | 4 | 8 |
-| `tetrahedra` | 4 | 7 |
-| `del` | 4 | 5 |
-| `genera` | 3 | 7 |
-| `project` | 3 | 6 |
-| `rtices` | 3 | 6 |
-| `tetraedros` | 3 | 6 |
-| `tetrahedron` | 3 | 6 |
-| `proyecta` | 3 | 4 |
-| `delaunay` | 3 | 3 |
-| `quasicrystal` | 3 | 3 |
-| `subconjunto` | 3 | 3 |
-| `triangulaci` | 3 | 3 |
-| `vertices` | 3 | 3 |
-| `visualiza` | 3 | 3 |
-| `una` | 2 | 3 |
-| `circuit` | 2 | 2 |
-| `circuito` | 2 | 2 |
-| `crea` | 2 | 2 |
-| `create` | 2 | 2 |
-| `cut` | 2 | 2 |
-| `ntico` | 2 | 2 |
-| `num` | 2 | 2 |
-
-### Dialectic Prompts
-
-- Thesis: `circuit` centralizes 2 files; Antithesis: `circuito` pulls 2 files with 2 shared (Jaccard 1.00); Synthesis: should they merge, split by layer, or keep `bridges` explicit?
-- Thesis: `circuit` centralizes 2 files; Antithesis: `crea` pulls 2 files with 2 shared (Jaccard 1.00); Synthesis: should they merge, split by layer, or keep `bridges` explicit?
-- Thesis: `circuit` centralizes 2 files; Antithesis: `create` pulls 2 files with 2 shared (Jaccard 1.00); Synthesis: should they merge, split by layer, or keep `bridges` explicit?
-- Thesis: `circuit` centralizes 2 files; Antithesis: `cut` pulls 2 files with 2 shared (Jaccard 1.00); Synthesis: should they merge, split by layer, or keep `bridges` explicit?
-- Thesis: `circuit` centralizes 2 files; Antithesis: `del` pulls 4 files with 2 shared (Jaccard 0.50); Synthesis: should they merge, split by layer, or keep `bridges` explicit?
-- Thesis: `circuit` centralizes 2 files; Antithesis: `delaunay` pulls 3 files with 2 shared (Jaccard 0.67); Synthesis: should they merge, split by layer, or keep `bridges` explicit?
-- Thesis: `circuit` centralizes 2 files; Antithesis: `genera` pulls 3 files with 2 shared (Jaccard 0.67); Synthesis: should they merge, split by layer, or keep `bridges` explicit?
-- Thesis: `circuit` centralizes 2 files; Antithesis: `generate` pulls 6 files with 2 shared (Jaccard 0.33); Synthesis: should they merge, split by layer, or keep `bridges` explicit?
-- Thesis: `circuit` centralizes 2 files; Antithesis: `ntico` pulls 2 files with 2 shared (Jaccard 1.00); Synthesis: should they merge, split by layer, or keep `bridges` explicit?
-- Thesis: `circuit` centralizes 2 files; Antithesis: `para` pulls 5 files with 2 shared (Jaccard 0.40); Synthesis: should they merge, split by layer, or keep `bridges` explicit?
 
 ---
 
