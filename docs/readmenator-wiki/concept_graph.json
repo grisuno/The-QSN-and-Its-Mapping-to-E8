@@ -1,0 +1,279 @@
+{
+  "concepts": [
+    {
+      "name": "generate",
+      "files": [
+        "life.py",
+        "main.c",
+        "main.py",
+        "someideas.py",
+        "someideas2.py",
+        "transmision_qbits.py"
+      ],
+      "mentions": 12,
+      "confidence": "EXTRACTED"
+    },
+    {
+      "name": "plot",
+      "files": [
+        "life.py",
+        "main.py",
+        "someideas.py",
+        "someideas2.py",
+        "transmision_qbits.py"
+      ],
+      "mentions": 6,
+      "confidence": "EXTRACTED"
+    },
+    {
+      "name": "para",
+      "files": [
+        "life.py",
+        "main.c",
+        "someideas.py",
+        "someideas2.py",
+        "transmision_qbits.py"
+      ],
+      "mentions": 5,
+      "confidence": "EXTRACTED"
+    },
+    {
+      "name": "usando",
+      "files": [
+        "life.py",
+        "someideas.py",
+        "someideas2.py",
+        "transmision_qbits.py"
+      ],
+      "mentions": 8,
+      "confidence": "EXTRACTED"
+    },
+    {
+      "name": "tetrahedra",
+      "files": [
+        "life.py",
+        "main.c",
+        "someideas.py",
+        "someideas2.py"
+      ],
+      "mentions": 7,
+      "confidence": "EXTRACTED"
+    },
+    {
+      "name": "del",
+      "files": [
+        "life.py",
+        "someideas.py",
+        "someideas2.py",
+        "transmision_qbits.py"
+      ],
+      "mentions": 5,
+      "confidence": "EXTRACTED"
+    },
+    {
+      "name": "genera",
+      "files": [
+        "life.py",
+        "someideas.py",
+        "someideas2.py"
+      ],
+      "mentions": 7,
+      "confidence": "EXTRACTED"
+    },
+    {
+      "name": "project",
+      "files": [
+        "life.py",
+        "someideas.py",
+        "someideas2.py"
+      ],
+      "mentions": 6,
+      "confidence": "EXTRACTED"
+    },
+    {
+      "name": "rtices",
+      "files": [
+        "life.py",
+        "someideas.py",
+        "someideas2.py"
+      ],
+      "mentions": 6,
+      "confidence": "EXTRACTED"
+    },
+    {
+      "name": "tetraedros",
+      "files": [
+        "life.py",
+        "someideas.py",
+        "someideas2.py"
+      ],
+      "mentions": 6,
+      "confidence": "EXTRACTED"
+    },
+    {
+      "name": "tetrahedron",
+      "files": [
+        "main.c",
+        "main.py",
+        "transmision_qbits.py"
+      ],
+      "mentions": 6,
+      "confidence": "EXTRACTED"
+    },
+    {
+      "name": "proyecta",
+      "files": [
+        "life.py",
+        "someideas.py",
+        "someideas2.py"
+      ],
+      "mentions": 4,
+      "confidence": "EXTRACTED"
+    },
+    {
+      "name": "delaunay",
+      "files": [
+        "life.py",
+        "someideas.py",
+        "someideas2.py"
+      ],
+      "mentions": 3,
+      "confidence": "EXTRACTED"
+    },
+    {
+      "name": "quasicrystal",
+      "files": [
+        "main.c",
+        "main.py",
+        "transmision_qbits.py"
+      ],
+      "mentions": 3,
+      "confidence": "EXTRACTED"
+    },
+    {
+      "name": "subconjunto",
+      "files": [
+        "life.py",
+        "someideas.py",
+        "someideas2.py"
+      ],
+      "mentions": 3,
+      "confidence": "EXTRACTED"
+    },
+    {
+      "name": "triangulaci",
+      "files": [
+        "life.py",
+        "someideas.py",
+        "someideas2.py"
+      ],
+      "mentions": 3,
+      "confidence": "EXTRACTED"
+    },
+    {
+      "name": "vertices",
+      "files": [
+        "life.py",
+        "someideas.py",
+        "someideas2.py"
+      ],
+      "mentions": 3,
+      "confidence": "EXTRACTED"
+    },
+    {
+      "name": "visualiza",
+      "files": [
+        "life.py",
+        "someideas.py",
+        "someideas2.py"
+      ],
+      "mentions": 3,
+      "confidence": "EXTRACTED"
+    },
+    {
+      "name": "una",
+      "files": [
+        "life.py",
+        "someideas.py"
+      ],
+      "mentions": 3,
+      "confidence": "EXTRACTED"
+    },
+    {
+      "name": "circuit",
+      "files": [
+        "life.py",
+        "someideas2.py"
+      ],
+      "mentions": 2,
+      "confidence": "EXTRACTED"
+    },
+    {
+      "name": "circuito",
+      "files": [
+        "life.py",
+        "someideas2.py"
+      ],
+      "mentions": 2,
+      "confidence": "EXTRACTED"
+    },
+    {
+      "name": "crea",
+      "files": [
+        "life.py",
+        "someideas2.py"
+      ],
+      "mentions": 2,
+      "confidence": "EXTRACTED"
+    },
+    {
+      "name": "create",
+      "files": [
+        "life.py",
+        "someideas2.py"
+      ],
+      "mentions": 2,
+      "confidence": "EXTRACTED"
+    },
+    {
+      "name": "cut",
+      "files": [
+        "life.py",
+        "someideas2.py"
+      ],
+      "mentions": 2,
+      "confidence": "EXTRACTED"
+    },
+    {
+      "name": "ntico",
+      "files": [
+        "life.py",
+        "someideas2.py"
+      ],
+      "mentions": 2,
+      "confidence": "EXTRACTED"
+    },
+    {
+      "name": "num",
+      "files": [
+        "main.c",
+        "transmision_qbits.py"
+      ],
+      "mentions": 2,
+      "confidence": "EXTRACTED"
+    }
+  ],
+  "relations": [],
+  "dialectic": [
+    "Thesis: `circuit` centralizes 2 files; Antithesis: `circuito` pulls 2 files with 2 shared (Jaccard 1.00); Synthesis: should they merge, split by layer, or keep `bridges` explicit?",
+    "Thesis: `circuit` centralizes 2 files; Antithesis: `crea` pulls 2 files with 2 shared (Jaccard 1.00); Synthesis: should they merge, split by layer, or keep `bridges` explicit?",
+    "Thesis: `circuit` centralizes 2 files; Antithesis: `create` pulls 2 files with 2 shared (Jaccard 1.00); Synthesis: should they merge, split by layer, or keep `bridges` explicit?",
+    "Thesis: `circuit` centralizes 2 files; Antithesis: `cut` pulls 2 files with 2 shared (Jaccard 1.00); Synthesis: should they merge, split by layer, or keep `bridges` explicit?",
+    "Thesis: `circuit` centralizes 2 files; Antithesis: `del` pulls 4 files with 2 shared (Jaccard 0.50); Synthesis: should they merge, split by layer, or keep `bridges` explicit?",
+    "Thesis: `circuit` centralizes 2 files; Antithesis: `delaunay` pulls 3 files with 2 shared (Jaccard 0.67); Synthesis: should they merge, split by layer, or keep `bridges` explicit?",
+    "Thesis: `circuit` centralizes 2 files; Antithesis: `genera` pulls 3 files with 2 shared (Jaccard 0.67); Synthesis: should they merge, split by layer, or keep `bridges` explicit?",
+    "Thesis: `circuit` centralizes 2 files; Antithesis: `generate` pulls 6 files with 2 shared (Jaccard 0.33); Synthesis: should they merge, split by layer, or keep `bridges` explicit?",
+    "Thesis: `circuit` centralizes 2 files; Antithesis: `ntico` pulls 2 files with 2 shared (Jaccard 1.00); Synthesis: should they merge, split by layer, or keep `bridges` explicit?",
+    "Thesis: `circuit` centralizes 2 files; Antithesis: `para` pulls 5 files with 2 shared (Jaccard 0.40); Synthesis: should they merge, split by layer, or keep `bridges` explicit?"
+  ]
+}
